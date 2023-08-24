@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Ubuntu:wght@500&display=swap');
+
+*{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#formBody{
+  padding: 12px;
+  /*border: 5px solid red;*/
+  border-radius: 8px;
+  margin-top: 20px;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);*/
+  box-shadow: 5px 5px 10px  1px rgba(0.15, 0, 0, 0.15);
+}
+
+#userName{
+  height: 20px;
+  width: 180px;
+}
+
+#formError{
+  color: red;
+  font-size: 15px;
+}
+
+#nameGreet{
+  font-size: 30px;
+  font-weight: bold;
+  color: goldenrod;
+}
+
+
+#timeGreet{
+  color: slategray;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+
+.logo{
+  font-weight: bold;
+  color: blu;
+}
+
+.sub{
+  background-color: darkblue;
+  color: whitesmoke;
+  height: 25px;
+  width: 50px;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.fontText{
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 18;
+  padding: 12px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px  1px rgba(0.15, 0, 0, 0.15);
+}
+
+
+
+.footer{
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 15px;
+  padding-bottom: 15px;
+  font-family: 'Roboto', sans-serif;
+}
